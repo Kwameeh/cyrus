@@ -1,0 +1,196 @@
+export interface Project {
+  title: string;
+  year: number;
+  image: string;
+  href?: string;
+  gallery?: string[];
+}
+
+export const projects: Project[] = [
+  {
+    title: "Project 1",
+    year: 2024,
+    image: "/img1.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+      "/img6.jpeg",
+      "/img7.jpeg",
+      "/img8.jpeg",
+      "/img9.jpeg",
+    ],
+  },
+  {
+    title: "Project 2",
+    year: 2024,
+    image: "/img2.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 3",
+    year: 2023,
+    image: "/img3.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 4",
+    year: 2023,
+    image: "/img4.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 5",
+    year: 2022,
+    image: "/img5.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 6",
+    year: 2022,
+    image: "/img6.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 7",
+    year: 2021,
+    image: "/img7.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 8",
+    year: 2021,
+    image: "/img8.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 9",
+    year: 2020,
+    image: "/img9.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 10",
+    year: 2020,
+    image: "/img10.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 11",
+    year: 2020,
+    image: "/img11.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 12",
+    year: 2020,
+    image: "/img12.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 13",
+    year: 2020,
+    image: "/img13.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+  {
+    title: "Project 14",
+    year: 2020,
+    image: "/img14.jpeg",
+    href: "#",
+    gallery: [
+      "/img1.jpeg",
+      "/img2.jpeg",
+      "/img3.jpeg",
+      "/img4.jpeg",
+      "/img5.jpeg",
+    ],
+  },
+];
