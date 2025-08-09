@@ -66,12 +66,12 @@ export default function FormNavigation({
         style={prevButtonStyle}
         onMouseOver={(e) => {
           if (currentStep !== 1) {
-            e.target.style.backgroundColor = "#d1d5db";
+            (e.target as HTMLButtonElement).style.backgroundColor = "#d1d5db";
           }
         }}
         onMouseOut={(e) => {
           if (currentStep !== 1) {
-            e.target.style.backgroundColor = "#e5e7eb";
+            (e.target as HTMLButtonElement).style.backgroundColor = "#e5e7eb";
           }
         }}>
         Previous
@@ -85,12 +85,12 @@ export default function FormNavigation({
           style={nextButtonStyle}
           onMouseOver={(e) => {
             if (canProceed) {
-              e.target.style.backgroundColor = "#374151";
+              (e.target as HTMLButtonElement).style.backgroundColor = "#374151";
             }
           }}
           onMouseOut={(e) => {
             if (canProceed) {
-              e.target.style.backgroundColor = "#1f2937";
+              (e.target as HTMLButtonElement).style.backgroundColor = "#1f2937";
             }
           }}>
           Next Step
@@ -103,12 +103,12 @@ export default function FormNavigation({
           style={submitButtonStyle}
           onMouseOver={(e) => {
             if (canProceed && !isSubmitting) {
-              e.target.style.backgroundColor = "#374151";
+              (e.target as HTMLButtonElement).style.backgroundColor = "#374151";
             }
           }}
           onMouseOut={(e) => {
             if (canProceed && !isSubmitting) {
-              e.target.style.backgroundColor = "#1f2937";
+              (e.target as HTMLButtonElement).style.backgroundColor = "#1f2937";
             }
           }}>
           {isSubmitting && (

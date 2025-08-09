@@ -163,6 +163,7 @@ img {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
+  transition: opacity 0.2s;
 }
 
 .overlay {
@@ -265,6 +266,14 @@ img {
 body:has(.contact-form-container) nav,
 body:has(.contact-form-container) footer {
   display: none;
+}
+
+/* Mobile responsive styles for project pages */
+@media (max-width: 900px) {
+  body {
+    overflow: hidden;
+    touch-action: none;
+  }
 }
 
 /* Mobile responsive styles for contact form */

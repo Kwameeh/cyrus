@@ -20,7 +20,7 @@ const inputStyle = {
 
 const textareaStyle = {
   ...inputStyle,
-  resize: "none",
+  resize: "none" as const,
   minHeight: "100px",
 };
 
